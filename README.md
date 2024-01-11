@@ -38,8 +38,9 @@ Para usar Calculator, siga estas etapas:
 
 Atualmente, o projeto enfrenta algumas dificuldades que podem ser abordadas no futuro:
 1. Esse bloco de código imprime uma mensagem de erro se o divisor (b) for zero, mas não para a execução do programa.
+   
    ![image](https://github.com/amandfernandes/Calculator/assets/144744139/453ca794-8a53-4ba3-bb9a-730e5f90110e)
-2. A entrada do usuário não é totalmente tratada para expressões mais complexas, levando a resultados imprevisíveis em alguns casos.
+3. A entrada do usuário não é totalmente tratada para expressões mais complexas, levando a resultados imprevisíveis em alguns casos.
 
 ## 📝 Notas:
 - A calculadora utiliza um loop contínuo para permitir que o usuário realize múltiplos cálculos até optar por sair.
