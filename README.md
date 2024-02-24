@@ -10,37 +10,52 @@
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white)
 
-Este código Python representa uma calculadora simples que aceita entrada do usuário para realizar operações aritiméticas básicas. O programa utiliza um loop principal para continuar pedindo entradas até que o usuário decida encerrá-lo.
+Este projeto é uma versão simplificada de uma calculadora feita em Python que aceita comandos do usuário para efetuar cálculos aritméticos simples. A calculadora é capaz de executar as quatro operações fundamentais: soma, subtração, multiplicação e divisão. O programa mantém um ciclo contínuo, solicitando entradas do usuário até que ele opte por finalizá-lo.
 
 
 ## 💻 Pré-requisitos
 ![Python](https://img.shields.io/badge/Python-3.12.0-14354C?style=for-the-badge&logo=python&logoColor=white)
 
-## ☕ Usando Calculator
+## ☕ Como usar Calculator
 
 Para usar Calculator, siga estas etapas:
-1. Execute o script: Calculator.py.
-2. Insira um número quando solicitado.
-3. Insira um operador (+, -, *, /) para realizar a operação desejada.
-4. Insira o próximo número para concluir a operação.
-5. O resultado será exibido, e você pode continuar realizando cálculos adicionais.
-6. Para sair da calculadora, pressione Enter quando solicitado o operador ou insira um valor não numérico.
+
+
+**1. *Inicie o programa:*** Execute o script Python, Calculator.py, para iniciar a calculadora.
+
+**2. *Insira o primeiro número:*** O programa solicitará que você insira um número. Digite um número válido e pressione Enter.
+
+**3. *Escolha a operação:*** Em seguida, o programa solicitará que você insira um operador. Os operadores válidos são '+' para adição, '-' para subtração, '*' para multiplicação e '/' para divisão. Digite o operador e pressione Enter.
+
+**4. *Insira o segundo número:*** O programa solicitará que você insira um segundo número. Digite um número válido e pressione Enter.
+
+**5. *Veja o resultado:*** O programa realizará a operação escolhida nos dois números e exibirá o resultado.
+
+**6. *Continue ou saia:*** Você pode continuar a realizar mais operações no resultado ou sair do programa. Para continuar, repita as etapas 3-4. Para sair, digite x quando solicitado a inserir um operador.
+
 
 ### Exemplo de uso:
-![image](https://github.com/amandfernandes/Calculator/assets/144744139/e11ecf90-3a6f-4c5d-9c7c-e1679a25f235)
+![resultadocalc](https://github.com/amandfernandes/Calculator/assets/144744139/e13fbdcf-4399-4e96-8b88-d54cba3a616c)
 
-### Recursos e Destaques
-- Tratamento de Entrada Inválida: Caso o usuário insira um valor não numérico, será solicitado que insira um número válido.
-- Operações Aritméticas Básicas: Adição, subtração, multiplicação e divisão são suportadas.
-- Prevenção de Divisão por Zero: Se o usuário tentar dividir por zero, uma mensagem de erro será exibida.
+
+### Tratamento de erros
+
+O programa possui tratamento de erros para entradas inválidas:
+
+- **Número inválido**: Se você inserir algo que não seja um número quando solicitado a inserir um número, o programa exibirá uma mensagem de erro e solicitará que você insira um número válido.
+
+- **Operador inválido**: Se você inserir algo que não seja um operador válido (`+`, `-`, `*`, `/`) quando solicitado a inserir um operador, o programa exibirá uma mensagem de erro e solicitará que você insira um operador válido.
+
+- **Divisão por zero**: Se você tentar dividir por zero, o programa exibirá uma mensagem de erro e reiniciará.
+
 
 ### Dificuldades Conhecidas
 
 Atualmente, o projeto enfrenta algumas dificuldades que podem ser abordadas no futuro:
-1. Esse bloco de código imprime uma mensagem de erro se o divisor (b) for zero, mas não para a execução do programa.
+1. Esse bloco de código imprime uma mensagem de erro se o divisor (b) for zero, porém não para automaticamente a execução do programa.
    
-   ![image](https://github.com/amandfernandes/Calculator/assets/144744139/453ca794-8a53-4ba3-bb9a-730e5f90110e)
-3. A entrada do usuário não é totalmente tratada para expressões mais complexas, levando a resultados imprevisíveis em alguns casos.
+   ![calculatorerr](https://github.com/amandfernandes/Calculator/assets/144744139/f99571a0-1e7f-4f7c-ae8c-67b2de53eb48)
+2. A entrada do usuário não é totalmente tratada para expressões mais complexas, levando a resultados imprevisíveis em alguns casos.
 
 ## 📝 Notas:
 - A calculadora utiliza um loop contínuo para permitir que o usuário realize múltiplos cálculos até optar por sair.
