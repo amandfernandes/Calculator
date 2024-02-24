@@ -11,35 +11,47 @@
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white)
 
-This Python code represents a simple calculator that accepts user input to perform basic arithmetic operations. The program uses a main loop to continue prompting for inputs until the user decides to terminate it.
+This project is a simplified version of a calculator made in Python that accepts user commands to perform simple arithmetic calculations. The calculator is capable of performing the four fundamental operations: addition, subtraction, multiplication, and division. The program maintains a continuous cycle, requesting user inputs until they choose to end it.
 
 ## 💻 Prerequisites
 ![Python](https://img.shields.io/badge/Python-3.12.0-14354C?style=for-the-badge&logo=python&logoColor=white)
 
-## ☕ Using Calculator
+## ☕ How to use Calculator
 
 To use Calculator, follow these steps:
-1. Run the script: Calculator.py.
-2. Enter a number when prompted.
-3. Enter an operator (+, -, *, /) to perform the desired operation.
-4. Enter the next number to complete the operation.
-5. The result will be displayed, and you can continue performing additional calculations.
-6. To exit the calculator, press Enter when prompted for the operator or enter a non-numeric value.
+
+**1. *Start the program:*** Run the Python script, Calculator.py, to start the calculator.
+
+**2. *Enter the first number:*** The program will ask you to enter a number. Type a valid number and press Enter.
+
+**3. *Choose the operation:*** Next, the program will ask you to enter an operator. The valid operators are '+' for addition, '-' for subtraction, '*' for multiplication, and '/' for division. Type the operator and press Enter.
+
+**4. *Enter the second number:*** The program will ask you to enter a second number. Type a valid number and press Enter.
+
+**5. *See the result:*** The program will perform the chosen operation on the two numbers and display the result.
+
+**6. *Continue or exit:*** You can continue to perform more operations on the result or exit the program. To continue, repeat steps 3-4. To exit, type x when asked to enter an operator.
 
 ### Usage Example:
-![image](https://github.com/amandfernandes/Calculator/assets/144744139/e11ecf90-3a6f-4c5d-9c7c-e1679a25f235)
+![resultadocalc](https://github.com/amandfernandes/Calculator/assets/144744139/6c3a33bc-e2c2-4cd4-b5db-9ff40e89d2b5)
 
-### Features and Highlights
-- Invalid Input Handling: If the user enters a non-numeric value, they will be prompted to enter a valid number.
-- Basic Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
-- Division by Zero Prevention: If the user tries to divide by zero, an error message will be displayed.
 
-### Known Issues
+### Error handling
+
+The program has error handling for invalid entries:
+
+- **Invalid number**: If you enter something that is not a number when asked to enter a number, the program will display an error message and ask you to enter a valid number.
+
+- **Invalid operator**: If you enter something that is not a valid operator (`+`, `-`, `*`, `/`) when asked to enter an operator, the program will display an error message and ask you to enter a valid operator.
+
+- **Division by zero**: If you try to divide by zero, the program will display an error message and restart.
+
+### Known Difficulties
 Currently, the project faces some difficulties that may be addressed in the future:
-1. This code block prints an error message if the divisor (b) is zero but does not halt the program's execution.
+1. This block of code prints an error message if the divisor (b) is zero, but it does not automatically stop the execution of the program.
    
-   ![image](https://github.com/amandfernandes/Calculator/assets/144744139/453ca794-8a53-4ba3-bb9a-730e5f90110e)
-2. User input is not fully handled for more complex expressions, leading to unpredictable results in some cases.
+   ![calculatorerr](https://github.com/amandfernandes/Calculator/assets/144744139/b7e8f4e6-6315-4a7a-8c8b-067e4d09525d)
+2. The user's input is not fully handled for more complex expressions, leading to unpredictable results in some cases
 
 ## 📝 Notes:
 - The calculator uses a continuous loop to allow the user to perform multiple calculations until choosing to exit.
